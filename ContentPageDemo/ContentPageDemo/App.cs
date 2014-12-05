@@ -11,8 +11,7 @@ namespace ContentPageDemo
     {
         public static Page GetMainPage()
         {
-            var Content = new NavigationPage(new NavigationPageDemoPage());
-            
+            var Content = new NavigationPage(new NavigationPageDemoPage());            
             return Content;    
         }
     }
